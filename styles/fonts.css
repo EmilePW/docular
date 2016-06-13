@@ -1,0 +1,14 @@
+@font-face {
+	src: url('../fonts/Okomito/Light/Okomito-Light.ttf');
+	font-family: 'Okomito Light';
+}
+
+@font-face {
+	src: url('../fonts/Okomito/Medium/Okomito-Medium.ttf');
+	font-family: 'Okomito Medium';
+}
+
+@font-face {
+	src: url('../fonts/Okomito/Bold/Okomito-Bold.ttf');
+	font-family: 'Okomito Bold';
+}

@@ -1,0 +1,46 @@
+/* Typography */
+.light-body-type {
+	font-family: 'Okomito Light';
+	color: #222;
+}
+
+.medium-body-type {
+	font-family: 'Okomito Medium';
+	color: #222;
+}
+
+.bold-body-type {
+	font-family: 'Okomito Bold';
+	color: #222;
+}
+
+.lg-size-type {
+	font-size: 37px;
+	line-height: 50px;
+}
+
+.md-size-type {
+	font-size: 23px;
+	line-height: 37px;
+}
+
+.sm-size-type {
+	font-size: 14px;
+	line-height: 23px;
+}
+
+.primary-color {
+	color: #222;
+}
+
+.secondary-color {
+	color: forestgreen;
+}
+
+.tertiary-color {
+	color: white;
+}
+
+.underline {
+	border-bottom: 1px solid #222;
+}
