@@ -3,10 +3,6 @@ module.exports = {
 	output: {
 		filename: './public/bundle.js'
 	},
-	devServer: {
-		inline: true,
-		port: 3006
-	},
 	module: {
 		loaders: [
 			{
