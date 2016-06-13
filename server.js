@@ -1,14 +1,6 @@
-const path = require('path');
-const express = require('express');
-const app = express();
+var express = require('express');
+var app = express();
 
-app.get('*', function(req, res) {
-	res.sendFile('index.html');
-});
+app.use(express.static(__dirname + '/'));
 
-var port = process.env.PORT || 5000;
-app.listen(port);
-
-console.log('Woop! Woop! Join the party on localhost: ' + port);
-
-exports = module.exports = app;
+app.listen(process.env.PORT || 8080);
